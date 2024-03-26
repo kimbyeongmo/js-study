@@ -64,7 +64,7 @@ while(true) {
   if (ID === names.account) {
     var PW = prompt(`비밀번호를 입력하세요`);
     if(PW === names.password){
-      alert(`${names}님 ㅎㅇ`)
+      alert(`${names.username}님 ㅎㅇ`)
       break;
     }else{
       alert(`비밀번호가 틀렸습니다.`)
